@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Create artifact copy') {
             steps {
-                sh 'cp target/apigateway-*.jar target/apigateway-RELEASE.jar'
+                sh 'cp target/apigateway-*.jar target/apigateway.jar'
             }
         }
         
