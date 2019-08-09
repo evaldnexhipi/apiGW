@@ -9,8 +9,5 @@ public class Main {
 	    public String taleas(){
 	        return "Hello Taleas from Evald!";
 	    }
-	@RequestMapping("/evald")
-	    public String taleas(){
-	        return "Hello Evald!";
-	    }
+	
 }
