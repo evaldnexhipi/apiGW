@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Run Container') {
             steps {              
-                sh 'docker run -d -p 8083:8080 --name DemoContainer api_gateway_image'           
+                sh 'docker run -d -p 8083:8080 --name DemoContainerr api_gateway_image'           
             }
         }
     }
